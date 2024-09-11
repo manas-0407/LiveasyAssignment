@@ -1,0 +1,30 @@
+package com.LiveasyTask.LiveasyTask.models;
+
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import lombok.*;
+
+import java.time.LocalDate;
+import java.util.UUID;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+public class Load {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long loadId;
+    private String loadingPoint;
+    private String unloadingPoint;
+    private String productType;
+    private String truckType;
+    private String noOfTrucks;
+    private String weight;
+    private String comment;
+    private String shipperId;
+    private String date;
+}
