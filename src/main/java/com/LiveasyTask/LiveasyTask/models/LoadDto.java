@@ -3,9 +3,6 @@ package com.LiveasyTask.LiveasyTask.models;
 import lombok.Data;
 import lombok.NonNull;
 
-import java.time.LocalDate;
-import java.util.*;
-
 @Data
 public class LoadDto {
     @NonNull

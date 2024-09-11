@@ -2,10 +2,6 @@ package com.LiveasyTask.LiveasyTask.models;
 
 import lombok.Data;
 
-import java.time.LocalDate;
-import java.util.*;
-import java.io.*;
-
 @Data
 public class UpdateLoadDto {
     private String loadingPoint;
